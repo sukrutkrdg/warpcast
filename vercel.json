@@ -1,10 +1,5 @@
 {
-    "redirects": [
-      {
-        "source": "/",
-        "destination": "/frame.html",
-        "permanent": true
-      }
-    ]
-  }
-  
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "/api/:path*" }
+  ]
+}
